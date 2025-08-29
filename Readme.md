@@ -55,3 +55,20 @@ Documenten las precondiciones necesarias para el sistema:
 - El sistema debe tener persistencia  en memoria y base de datos para almacenar cuentas.
 - Las cuentas deben crearse sólo si cumplen con las reglas de negocio.
 - Debe existir un mecanismo para verificar que una cuenta es válida antes de realizar operaciones como consulta o depósito.
+
+# reto 2 
+RETO #2: Diseñando A partir del punto anterior, su misión es la siguiente: 
+•Realicen un diagrama de contexto de la solución (relaciones entre el sistema y los actores identificados) y explíquenlo
+![img_10.png](img_10.png)
+•Realicen un diagrama de Casos de uso en base a sus actores y las funcionalidades identificadas.
+![img_11.png](img_11.png)
+- En base al diagrama anterior generen historias de usuario basado en el formato: Como [actor], quiero [objetivo], para [beneficio] 
+- Como Cliente quiero crear una cuenta bancaria válida, para poder gestionar mis finanzas de manera segura. 
+- Como Cliente quiero validar el número de cuenta para asegurarme de que mi cuenta cumple con los estándares 
+- Como Cliente quiero consultar el saldo de mi cuenta bancaria, para conocer mi estado financiero actual. 
+- Como liente quiero realizar un depósito en mi cuenta, para incrementar mi saldo disponible. 
+
+- Generen una tabla de Excel con las historias de usuario creadas e indique para cada una que atributo de calidad resuelve.
+- ![img_13.png](img_13.png)
+- •	Realicen un diagrama de Clases de las entidades identificadas en el enunciado.
+- ![img_15.png](img_15.png)
