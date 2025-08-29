@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>edu.dosw.lab</groupId>
-    <artifactId>Laboratorio-3-DOSW</artifactId>
+    <artifactId>Lab03</artifactId>
     <version>1.0-SNAPSHOT</version>
     <name>Laboratorio-3-DOSW</name>
     <description>Project for Lab03</description>
@@ -13,6 +13,7 @@
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <maven.compiler.release>17</maven.compiler.release>
+        <project.built.sourceEncoding>UTF-8</project.built.sourceEncoding>
     </properties>
 
     <dependencies>
@@ -37,6 +38,7 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.0.0</version>
             </plugin>
+
             <plugin>
                 <groupId>org.jacoco</groupId>
                 <artifactId>jacoco-maven-plugin</artifactId>
@@ -56,8 +58,16 @@
                     </execution>
                 </executions>
             </plugin>
+
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>3.5.1</version>
+                <configuration>
+                    <mainClass>edu.dosw.lab.Main</mainClass>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
 
 </project>
-
