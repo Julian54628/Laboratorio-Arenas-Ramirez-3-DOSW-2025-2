@@ -112,8 +112,56 @@ como unidad de trabajo, usando Fibonacci como estimacion de voto y tener un cons
 
 - ![img_14.png](img_14.png)
 
+# Reto3
 
+**Descripción**
 
+El reto consiste en implementar una simulación de votación para estimar las historias
+de usuarios, usando la técnica de Planning Poker. En este caso los integrantes del
+equipo van a votar con los valores de la secuencia de Fibonacci, y dependiendo el
+resultado se podrán asignar puntos de esfuerzo a cada historia.
+El programa preguntara la cantidad de integrantes que hay, luego se va a pedir los
+votos, se validara que estén en la escala de Fibonacci, y revisara si todos los
+integrantes votaran igual para tener el mismo consenso, si no llegan a tener,
+entonces se repetirá la votación hasta que lleguen todos a un acuerdo, por último se
+mostrara el puntaje asignado de cada historia.
+
+**Estructura**
+- ![img_18.png](img_18.png)
+
+**Las clases**
+- ![img_19.png](img_19.png)
+
+Esta clase representa una historia de usuario, que almacena las descripciones en un
+atributo y el puntaje estimado.
+
+- ![img_20.png](img_20.png)
+- ![img_21.png](img_21.png)
+
+Esta clase es la que gestiona el proceso de votación, para poder estimar las historias
+de usuario, donde se utiliza Fibonacci, como sus valores validos,
+
+- ![img_22.png](img_22.png)
+
+Esta clase ya es la que se encarga de ejecutar todo el proyecto de este reto, aca se inicia
+creando la lista de las historias de usuario, comenzando con las votaciones y entregando
+toda la evidencia de los votos y casos.
+
+**Patrones**
+
+- Singleton responsability
+  Ya que cada clase tiene una unica responsabilidad, como las historias que es almacenar los datos
+  de las historias y los puntajes, como votaciones que es la que organiza los votos,
+  y ya la reto3 que se encarga de coordinar todo el programa.
+- Encapsulamiento
+  Se protegieron los datos con atributos privados.
+- Agilismo
+  Se implementa directamente la tecnica Planning Poker, que se ve en el uso de historias d eusaurio
+  como unidad de trabajo, usando Fibonacci como estimacion de voto y tener un consenso para avanzar.
+
+**Evidecia casos de usuario**
+
+-![img_23.png](img_23.png)
 # Reto 4
 
 **Sistema de Gestión de Cuentas Bancarias**
@@ -136,8 +184,26 @@ programación orientada a objetos (POO) y buenas prácticas de diseño de softwa
 Nuestras Clases estan dividad en dos partes la parte logica y la parte de prueva
 la cual se encuentra en otra carpeta como se debe hacer con los requisitos de maven,
 creamos las clases utilizando el diagrama del segundo reto para que todo estubiera trabajando
-en conjunto bajo los mismos estandares y criterios
+en conjunto bajo los mismos estandares y criterios:
 
-![img_17.png](img_17.png)
+- **ValidadorCuenta:** Verifica si una cuenta existe en el sistema.
+
+- **Transaccion:** Realiza y registra operaciones bancarias como depósitos y retiros.
+
+- **CuentaBancaria:** Almacena los detalles de una cuenta, incluyendo el saldo y el cliente.
+
+- **Cliente:** Representa a la persona que posee una cuenta.
+
+- **Banco:** Define los nombres y códigos de los bancos disponibles.
+
+- **GestionCuentas:** Actúa como el controlador principal para crear, buscar y operar las cuentas.
+
+-**Clases de pruba y su comportamiento**
+
+- ![img_17.png](img_17.png)
+
+Se crearon las pruebas desde el funcionamiento mas basico para poder fomentar su informacion y comportamiento,
+con el fin de satisfacer los retos solicitados.
+
 
 
