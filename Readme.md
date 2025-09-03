@@ -12,8 +12,8 @@ feature/laboratorio3_ramirez_arenas_2025-2
 compila con mvn clean compile
 
 ![img_1.png](img_1.png)
-
-Compila con mvn test
+---------------------------
+### Compila con mvn test
 
 ![img_2.png](img_2.png)
 ![img_3.png](img_3.png)
@@ -21,10 +21,12 @@ Compila con mvn test
 
  
 estudiante 2
-----mvn clean compile
+----
+### mvn clean compile
 ![img_5.png](img_5.png)
 ![img_6.png](img_6.png)
----- mvn test
+----
+### mvn test
 ![img_7.png](img_7.png)
 ![img_8.png](img_8.png)
 
@@ -37,6 +39,7 @@ Identifiquen reglas de negocio:
 - El sistema debe permitir crear y validar las cuentas de los clientes.
 - El sistema debe permitir consultar el saldo de una cuenta.
 - El sistema debe permitir realizar depósitos a cuentas válidas.
+**Descripción**
 
 Definan las funcionalidades principales:
 - Crear cuenta bancaria válida.
@@ -57,18 +60,84 @@ Documenten las precondiciones necesarias para el sistema:
 - Debe existir un mecanismo para verificar que una cuenta es válida antes de realizar operaciones como consulta o depósito.
 
 # reto 2 
-RETO #2: Diseñando A partir del punto anterior, su misión es la siguiente: 
-•Realicen un diagrama de contexto de la solución (relaciones entre el sistema y los actores identificados) y explíquenlo
+
+- Diseñando A partir del punto anterior, su misión es la siguiente: 
+
+- Realicen un diagrama de contexto de la solución (relaciones entre el sistema y los actores identificados) y explíquenlo
+
 ![img_10.png](img_10.png)
+
 •Realicen un diagrama de Casos de uso en base a sus actores y las funcionalidades identificadas.
+
 ![img_11.png](img_11.png)
+
 - En base al diagrama anterior generen historias de usuario basado en el formato: Como [actor], quiero [objetivo], para [beneficio] 
 - Como Cliente quiero crear una cuenta bancaria válida, para poder gestionar mis finanzas de manera segura. 
 - Como Cliente quiero validar el número de cuenta para asegurarme de que mi cuenta cumple con los estándares 
 - Como Cliente quiero consultar el saldo de mi cuenta bancaria, para conocer mi estado financiero actual. 
 - Como liente quiero realizar un depósito en mi cuenta, para incrementar mi saldo disponible. 
 
-- Generen una tabla de Excel con las historias de usuario creadas e indique para cada una que atributo de calidad resuelve.
+- ![img_12.png](img_12.png)
+
+Esta clase es la que gestiona el proceso de votación, para poder estimar las historias
+de usuario, donde se utiliza Fibonacci, como sus valores validos,
+
 - ![img_13.png](img_13.png)
+
+Esta clase ya es la que se encarga de ejecutar todo el proyecto de este reto, aca se inicia
+creando la lista de las historias de usuario, comenzando con las votaciones y entregando
+toda la evidencia de los votos y casos.
+
+**Patrones**
+
+- **Singleton responsability:**
+Ya que cada clase tiene una unica responsabilidad, como las historias que es almacenar los datos
+de las historias y los puntajes, como votaciones que es la que organiza los votos,
+y ya la reto3 que se encarga de coordinar todo el programa.
+- **Encapsulamiento:**
+Se protegieron los datos con atributos privados.
+- **Agilismo:**
+Se implementa directamente la tecnica Planning Poker, que se ve en el uso de historias d eusaurio
+como unidad de trabajo, usando Fibonacci como estimacion de voto y tener un consenso para avanzar.
+
+- Generen una tabla de Excel con las historias de usuario creadas e indique para cada una que atributo de calidad resuelve.
+
+- ![img_13.png](img_13.png)
+
 - •	Realicen un diagrama de Clases de las entidades identificadas en el enunciado.
+
 - ![img_15.png](img_15.png)
+
+**Evidecia casos de usuario**
+
+- ![img_14.png](img_14.png)
+
+
+
+# Reto 4
+
+**Sistema de Gestión de Cuentas Bancarias**
+- Este proyecto es una aplicación Java que simula un sistema básico para la gestión de cuentas bancarias. 
+Permite la creación de cuentas, la realización de transacciones y la consulta de saldos, demostrando principios de 
+programación orientada a objetos (POO) y buenas prácticas de diseño de software.
+
+**Características Principales**
+- **Creación de Cuentas:** Permite generar nuevas cuentas bancarias asociadas a un cliente.
+- **Gestión de Clientes:** Asocia cada cuenta a un cliente con su respectiva información.
+- **Transacciones Seguras:** Implementa la lógica para realizar depósitos y retiros, con validación de saldo para evitar sobregiros.
+- **Consulta de Saldo:** Permite a los usuarios verificar el saldo actual de sus cuentas.
+- **Validación de Cuentas:** Incluye un validador para verificar la existencia de una cuenta antes de realizar operaciones.
+- **Detalles de Transacción:** Genera un resumen detallado de cada transacción realizada.
+
+**Funcionamiento logico**
+
+![img_16.png](img_16.png)
+
+Nuestras Clases estan dividad en dos partes la parte logica y la parte de prueva
+la cual se encuentra en otra carpeta como se debe hacer con los requisitos de maven,
+creamos las clases utilizando el diagrama del segundo reto para que todo estubiera trabajando
+en conjunto bajo los mismos estandares y criterios
+
+![img_17.png](img_17.png)
+
+
