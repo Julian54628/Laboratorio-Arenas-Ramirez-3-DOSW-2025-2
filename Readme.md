@@ -116,15 +116,17 @@ como unidad de trabajo, usando Fibonacci como estimacion de voto y tener un cons
 
 **Descripción**
 
-El reto consiste en implementar una simulación de votación para estimar las historias
-de usuarios, usando la técnica de Planning Poker. En este caso los integrantes del
-equipo van a votar con los valores de la secuencia de Fibonacci, y dependiendo el
-resultado se podrán asignar puntos de esfuerzo a cada historia.
-El programa preguntara la cantidad de integrantes que hay, luego se va a pedir los
-votos, se validara que estén en la escala de Fibonacci, y revisara si todos los
-integrantes votaran igual para tener el mismo consenso, si no llegan a tener,
-entonces se repetirá la votación hasta que lleguen todos a un acuerdo, por último se
-mostrara el puntaje asignado de cada historia.
+El reto es simular una votación de Planning Poker para estimar el esfuerzo de las historias de usuario. El programa:
+
+- Pregunta por el número de integrantes del equipo.
+
+- Solicita los votos, que deben estar en la secuencia de Fibonacci.
+
+- Valida que los votos sean unánimes para lograr un consenso.
+
+- Si no hay consenso, se repite la votación.
+
+- Al final, muestra los puntos de esfuerzo asignados a cada historia.
 
 **Estructura**
 - ![img_18.png](img_18.png)
