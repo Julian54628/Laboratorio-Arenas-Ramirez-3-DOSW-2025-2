@@ -75,7 +75,12 @@ Documenten las precondiciones necesarias para el sistema:
 - Como Cliente quiero crear una cuenta bancaria válida, para poder gestionar mis finanzas de manera segura. 
 - Como Cliente quiero validar el número de cuenta para asegurarme de que mi cuenta cumple con los estándares 
 - Como Cliente quiero consultar el saldo de mi cuenta bancaria, para conocer mi estado financiero actual. 
-- Como liente quiero realizar un depósito en mi cuenta, para incrementar mi saldo disponible.
+- Como Cliente quiero realizar un depósito en mi cuenta, para incrementar mi saldo disponible.
+
+
+- Generen una tabla de Excel con las historias de usuario creadas e indique para cada una que atributo de calidad resuelve.
+
+- ![img_30.png](img_30.png)
 
 - •	Realicen un diagrama de Clases de las entidades identificadas en el enunciado.
 
