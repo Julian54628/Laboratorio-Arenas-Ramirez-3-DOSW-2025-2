@@ -1,7 +1,10 @@
 edu\dosw\lab\Reto4\CuentaBancaria.class
+edu\dosw\lab\Reto3\Historia.class
 edu\dosw\lab\Main.class
 edu\dosw\lab\Reto4\ValidadorCuenta.class
 edu\dosw\lab\Reto4\Banco.class
 edu\dosw\lab\Reto4\Cliente.class
 edu\dosw\lab\Reto4\GestionCuentas.class
 edu\dosw\lab\Reto4\Transaccion.class
+edu\dosw\lab\Reto3\Votacion.class
+edu\dosw\lab\Reto3\reto3.class
