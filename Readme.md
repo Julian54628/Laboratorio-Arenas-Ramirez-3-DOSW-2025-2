@@ -75,42 +75,11 @@ Documenten las precondiciones necesarias para el sistema:
 - Como Cliente quiero crear una cuenta bancaria válida, para poder gestionar mis finanzas de manera segura. 
 - Como Cliente quiero validar el número de cuenta para asegurarme de que mi cuenta cumple con los estándares 
 - Como Cliente quiero consultar el saldo de mi cuenta bancaria, para conocer mi estado financiero actual. 
-- Como liente quiero realizar un depósito en mi cuenta, para incrementar mi saldo disponible. 
-
-- ![img_12.png](img_12.png)
-
-Esta clase es la que gestiona el proceso de votación, para poder estimar las historias
-de usuario, donde se utiliza Fibonacci, como sus valores validos,
-
-- ![img_13.png](img_13.png)
-
-Esta clase ya es la que se encarga de ejecutar todo el proyecto de este reto, aca se inicia
-creando la lista de las historias de usuario, comenzando con las votaciones y entregando
-toda la evidencia de los votos y casos.
-
-**Patrones**
-
-- **Singleton responsability:**
-Ya que cada clase tiene una unica responsabilidad, como las historias que es almacenar los datos
-de las historias y los puntajes, como votaciones que es la que organiza los votos,
-y ya la reto3 que se encarga de coordinar todo el programa.
-- **Encapsulamiento:**
-Se protegieron los datos con atributos privados.
-- **Agilismo:**
-Se implementa directamente la tecnica Planning Poker, que se ve en el uso de historias d eusaurio
-como unidad de trabajo, usando Fibonacci como estimacion de voto y tener un consenso para avanzar.
-
-- Generen una tabla de Excel con las historias de usuario creadas e indique para cada una que atributo de calidad resuelve.
-
-- ![img_13.png](img_13.png)
+- Como liente quiero realizar un depósito en mi cuenta, para incrementar mi saldo disponible.
 
 - •	Realicen un diagrama de Clases de las entidades identificadas en el enunciado.
 
 - ![img_15.png](img_15.png)
-
-**Evidecia casos de usuario**
-
-- ![img_14.png](img_14.png)
 
 # Reto3
 
@@ -207,3 +176,25 @@ Se crearon las pruebas desde el funcionamiento mas basico para poder fomentar su
 con el fin de satisfacer los retos solicitados.
 
 
+
+
+![img_14.png](img_14.png)
+
+# Reto 5
+
+**Evidencia**
+
+![img_24.png](img_24.png)
+![img_25.png](img_25.png)
+![img_26.png](img_26.png)
+![img_27.png](img_27.png)
+
+**Reflexion**
+
+Para aumentar la cobertura, agregamos pruebas como el retiro con saldo insufucient. Esto nos permite
+cubrir el error al lanzar una excepcion avisandonos que tenems saldo insuficiente.
+
+Jacoco mostraba que esa condicion no estaba ejecutandose, pero gracias al test, ya se pudo superar 
+correctamente la cobertura.
+
+![img_28.png](img_28.png)
