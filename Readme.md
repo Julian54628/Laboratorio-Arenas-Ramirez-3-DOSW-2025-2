@@ -162,8 +162,7 @@ toda la evidencia de los votos y casos.
   como unidad de trabajo, usando Fibonacci como estimacion de voto y tener un consenso para avanzar.
 
 **Evidecia casos de usuario**
-
--![img_23.png](img_23.png)
+- ![img_14.png](img_14.png)
 # Reto 4
 
 **Sistema de Gestión de Cuentas Bancarias**
@@ -208,8 +207,3 @@ Se crearon las pruebas desde el funcionamiento mas basico para poder fomentar su
 con el fin de satisfacer los retos solicitados.
 
 
-
-
-![img_14.png](img_14.png)
-
-en evidencia
