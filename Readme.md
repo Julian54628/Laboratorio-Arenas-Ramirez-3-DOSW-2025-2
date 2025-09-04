@@ -11,24 +11,24 @@ feature/laboratorio3_ramirez_arenas_2025-2
 **Evidencias de que compilo**
 compila con mvn clean compile
 
-![img_1.png](img_1.png)
+![img_1.png](docs/imagenes/img_1.png)
 ---------------------------
 ### Compila con mvn test
 
-![img_2.png](img_2.png)
-![img_3.png](img_3.png)
-![img_4.png](img_4.png)
+![img_2.png](docs/imagenes/img_2.png)
+![img_3.png](docs/imagenes/img_3.png)
+![img_4.png](docs/imagenes/img_4.png)
 
  
 estudiante 2
 ----
 ### mvn clean compile
-![img_5.png](img_5.png)
-![img_6.png](img_6.png)
+![img_5.png](docs/imagenes/img_5.png)
+![img_6.png](docs/imagenes/img_6.png)
 ----
 ### mvn test
-![img_7.png](img_7.png)
-![img_8.png](img_8.png)
+![img_7.png](docs/imagenes/img_7.png)
+![img_8.png](docs/imagenes/img_8.png)
 ----------------------------------------------------------------
 # Reto 1
 
@@ -66,11 +66,11 @@ Documenten las precondiciones necesarias para el sistema:
 
 - Realicen un diagrama de contexto de la solución (relaciones entre el sistema y los actores identificados) y explíquenlo
 
-![img_10.png](img_10.png)
+![img_10.png](docs/imagenes/img_10.png)
 
 •Realicen un diagrama de Casos de uso en base a sus actores y las funcionalidades identificadas.
 
-![img_11.png](img_11.png)
+![img_11.png](docs/imagenes/img_11.png)
 
 - En base al diagrama anterior generen historias de usuario basado en el formato: Como [actor], quiero [objetivo], para [beneficio] 
 - Como Cliente quiero crear una cuenta bancaria válida, para poder gestionar mis finanzas de manera segura. 
@@ -81,11 +81,11 @@ Documenten las precondiciones necesarias para el sistema:
 
 - Generen una tabla de Excel con las historias de usuario creadas e indique para cada una que atributo de calidad resuelve.
 
-- ![img_30.png](img_30.png)
+- ![img_30.png](docs/imagenes/img_30.png)
 
 - •	Realicen un diagrama de Clases de las entidades identificadas en el enunciado.
 
-- ![img_15.png](img_15.png)
+- ![img_15.png](docs/imagenes/img_15.png)
 ----------------------------------------------------------------
 
 # Reto3
@@ -105,21 +105,21 @@ El reto es simular una votación de Planning Poker para estimar el esfuerzo de l
 - Al final, muestra los puntos de esfuerzo asignados a cada historia.
 
 **Estructura**
-- ![img_18.png](img_18.png)
+- ![img_18.png](docs/imagenes/img_18.png)
 
 **Las clases**
-- ![img_19.png](img_19.png)
+- ![img_19.png](docs/imagenes/img_19.png)
 
 Esta clase representa una historia de usuario, que almacena las descripciones en un
 atributo y el puntaje estimado.
 
-- ![img_20.png](img_20.png)
-- ![img_21.png](img_21.png)
+- ![img_20.png](docs/imagenes/img_20.png)
+- ![img_21.png](docs/imagenes/img_21.png)
 
 Esta clase es la que gestiona el proceso de votación, para poder estimar las historias
 de usuario, donde se utiliza Fibonacci, como sus valores validos,
 
-- ![img_22.png](img_22.png)
+- ![img_22.png](docs/imagenes/img_22.png)
 
 Esta clase ya es la que se encarga de ejecutar todo el proyecto de este reto, aca se inicia
 creando la lista de las historias de usuario, comenzando con las votaciones y entregando
@@ -139,7 +139,7 @@ toda la evidencia de los votos y casos.
 
 **Evidecia casos de usuario**
 
--![img_23.png](img_23.png)
+-![img_23.png](docs/imagenes/img_23.png)
 
 ----------------------------------------------------------------
 # Reto 4
@@ -159,7 +159,7 @@ programación orientada a objetos (POO) y buenas prácticas de diseño de softwa
 
 **Funcionamiento logico**
 
-![img_16.png](img_16.png)
+![img_16.png](docs/imagenes/img_16.png)
 
 Nuestras Clases estan dividad en dos partes la parte logica y la parte de prueva
 la cual se encuentra en otra carpeta como se debe hacer con los requisitos de maven,
@@ -167,22 +167,22 @@ creamos las clases utilizando el diagrama del segundo reto para que todo estubie
 en conjunto bajo los mismos estandares y criterios:
 
 - #### **ValidadorCuenta:** Verifica si una cuenta existe en el sistema.
-![img_31.png](img_31.png)
+![img_31.png](docs/imagenes/img_31.png)
 - #### **Transaccion:** Realiza y registra operaciones bancarias como depósitos y retiros.
-![img_32.png](img_32.png)
+![img_32.png](docs/imagenes/img_32.png)
 - #### **CuentaBancaria:** Almacena los detalles de una cuenta, incluyendo el saldo y el cliente.
-![img_33.png](img_33.png)
+![img_33.png](docs/imagenes/img_33.png)
 - #### **Cliente:** Representa a la persona que posee una cuenta.
-![img_34.png](img_34.png)
+![img_34.png](docs/imagenes/img_34.png)
 - **Banco:** Define los nombres y códigos de los bancos disponibles.
-![img_35.png](img_35.png)
+![img_35.png](docs/imagenes/img_35.png)
 - #### **GestionCuentas:** Actúa como el controlador principal para crear, buscar y operar las cuentas.
-![img_36.png](img_36.png)
+![img_36.png](docs/imagenes/img_36.png)
 
 ### **Clases de pruba y su comportamiento**
 
 - Las corremos con el comado "mvn test"
-- ![img_17.png](img_17.png)
+- ![img_17.png](docs/imagenes/img_17.png)
 
 Se crearon las pruebas desde el funcionamiento mas basico para poder fomentar su informacion y comportamiento,
 con el fin de satisfacer los retos solicitados.
@@ -192,10 +192,10 @@ con el fin de satisfacer los retos solicitados.
 
 **Evidencia**
 
-![img_24.png](img_24.png)
-![img_25.png](img_25.png)
-![img_26.png](img_26.png)
-![img_27.png](img_27.png)
+![img_24.png](docs/imagenes/img_24.png)
+![img_25.png](docs/imagenes/img_25.png)
+![img_26.png](docs/imagenes/img_26.png)
+![img_27.png](docs/imagenes/img_27.png)
 
 **Reflexion**
 
@@ -205,7 +205,7 @@ cubrir el error al lanzar una excepcion avisandonos que tenems saldo insuficient
 Jacoco mostraba que esa condicion no estaba ejecutandose, pero gracias al test, ya se pudo superar 
 correctamente la cobertura.
 
-![img_28.png](img_28.png)
+![img_28.png](docs/imagenes/img_28.png)
 
 ----------------------------------------------------------------
 # Reto 6
@@ -220,25 +220,25 @@ y con las pruebas.
 **Evidencias**
 
 1) instalar Docker.
-![img_31.png](img_31.png)
+![img_31.png](docs/imagenes/img_31.png)
 
 2) Agregarlo en consola
-![img_32.png](img_32.png)
-![img_33.png](img_33.png)
+![img_32.png](docs/imagenes/img_32.png)
+![img_33.png](docs/imagenes/img_33.png)
 
 3) Pruebas en la consola de intellij
 
 docker pull sonarqube
-![img_36.png](img_36.png)
+![img_36.png](docs/imagenes/img_36.png)
 
 mvn verify sonar:sonar
-![img_37.png](img_37.png)
-![img_38.png](img_38.png)
-![img_39.png](img_39.png)
+![img_37.png](docs/imagenes/img_37.png)
+![img_38.png](docs/imagenes/img_38.png)
+![img_39.png](docs/imagenes/img_39.png)
 
 4) se actualiza el pom
-![img_40.png](img_40.png)
-![img_41.png](img_41.png)
+![img_40.png](docs/imagenes/img_40.png)
+![img_41.png](docs/imagenes/img_41.png)
 
 ----------------------------------------------------------------
 **Refelxiones**
