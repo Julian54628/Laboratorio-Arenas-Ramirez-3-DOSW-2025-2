@@ -179,6 +179,16 @@ en conjunto bajo los mismos estandares y criterios:
 - #### **GestionCuentas:** Actúa como el controlador principal para crear, buscar y operar las cuentas.
 ![img_36.png](docs/imagenes/img_36.png)
 
+### **Documentacion y JAVA Doc**
+
+Pasamos a la documentar las clases se solicita los javaDOG los cuales se generan con el sigueinte comando:
+#### "mvn javadoc:javadoc" 
+- los apidocs se generan en target/, esa carpeta no se sube a Git, y por eso solo aparecen en la máquina de quien ejecutó el comando.
+![img.png](img.png)
+
+- Se confirma habriendo el index.html en el buscador que seria nuestra api del proyecto
+![img_3.png](img_3.png)
+
 ### **Clases de pruba y su comportamiento**
 
 - Las corremos con el comado "mvn test"
@@ -186,9 +196,6 @@ en conjunto bajo los mismos estandares y criterios:
 
 Se crearon las pruebas desde el funcionamiento mas basico para poder fomentar su informacion y comportamiento,
 con el fin de satisfacer los retos solicitados.
-![img.png](img.png)
-![img_1.png](img_1.png)
-![img_2.png](img_2.png)
 
 ----------------------------------------------------------------
 
