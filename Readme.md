@@ -179,7 +179,7 @@ en conjunto bajo los mismos estandares y criterios:
 - #### **GestionCuentas:** Actúa como el controlador principal para crear, buscar y operar las cuentas.
 ![img_36.png](docs/imagenes/img_36.png)
 
-- ## Principios y Patrones Utilizados
+- ### Principios y Patrones Utilizados
 
 La solución se desarrolló aplicando principios **SOLID**:
 - Cada clase cumple una única responsabilidad (S).
