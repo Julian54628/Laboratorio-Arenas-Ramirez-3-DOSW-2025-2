@@ -245,3 +245,11 @@ Para mí son importantes las pruebas de software, porque queremos garantizar que
 proyectos, cumplan con lo que esperamos, y además que nuestro sistema se comporte de buena manera con los diferentes 
 escenarios que hay. Algo bueno es que además de ayudarnos a detectar errores técnicos, también nos permite mejorar la 
 calidad del programa, reduciendo los riesgos y generando más confianza para los usuarios finales.
+
+- **Integrante2**
+
+Tomas Ramirez
+
+las pruebas de software son un pilar fundamental para crear productos de alta calidad, confiables y seguros. No son un 
+gasto, sino una inversión estratégica que asegura el éxito del software y la satisfacción del cliente, dando la certeza 
+de que es un producto robusto, solido e integro para futuras mejoras y utilidades.
