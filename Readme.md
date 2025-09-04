@@ -199,3 +199,35 @@ Jacoco mostraba que esa condicion no estaba ejecutandose, pero gracias al test, 
 correctamente la cobertura.
 
 ![img_28.png](img_28.png)
+
+# Reto 6
+
+**Descripción**
+
+Este reto consistia en integrar SonarQube en el proyecto para realizar analisis estático de código y para 
+que mida la calidad de software. Por lo que se instalo Docker para poder usar Donarqube, generar un token 
+de autenticación, la configuración que se hace en el pom.xml con las propiedades que nos pedia el documento
+y con las pruebas.
+
+**Evidencias**
+
+1) instalar Docker.
+![img_31.png](img_31.png)
+
+2) Agregarlo en consola
+![img_32.png](img_32.png)
+![img_33.png](img_33.png)
+
+3) Pruebas en la consola de intellij
+
+docker pull sonarqube
+![img_36.png](img_36.png)
+
+mvn verify sonar:sonar
+![img_37.png](img_37.png)
+![img_38.png](img_38.png)
+![img_39.png](img_39.png)
+
+4) se actualiza el pom
+![img_40.png](img_40.png)
+![img_41.png](img_41.png)
