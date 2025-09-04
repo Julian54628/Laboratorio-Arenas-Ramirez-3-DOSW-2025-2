@@ -231,3 +231,15 @@ mvn verify sonar:sonar
 4) se actualiza el pom
 ![img_40.png](img_40.png)
 ![img_41.png](img_41.png)
+
+
+**Refelxiones**
+
+- **Integrante1**
+
+Julián Arenas
+
+Para mí son importantes las pruebas de software, porque queremos garantizar que todas las funcionalidades de nuestros 
+proyectos, cumplan con lo que esperamos, y además que nuestro sistema se comporte de buena manera con los diferentes 
+escenarios que hay. Algo bueno es que además de ayudarnos a detectar errores técnicos, también nos permite mejorar la 
+calidad del programa, reduciendo los riesgos y generando más confianza para los usuarios finales.
