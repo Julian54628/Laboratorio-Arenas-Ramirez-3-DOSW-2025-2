@@ -29,7 +29,7 @@ estudiante 2
 ### mvn test
 ![img_7.png](img_7.png)
 ![img_8.png](img_8.png)
-
+----------------------------------------------------------------
 # Reto 1
 
 Identifiquen reglas de negocio:
@@ -59,6 +59,7 @@ Documenten las precondiciones necesarias para el sistema:
 - Las cuentas deben crearse sólo si cumplen con las reglas de negocio.
 - Debe existir un mecanismo para verificar que una cuenta es válida antes de realizar operaciones como consulta o depósito.
 
+----------------------------------------------------------------
 # reto 2 
 
 - Diseñando A partir del punto anterior, su misión es la siguiente: 
@@ -85,6 +86,7 @@ Documenten las precondiciones necesarias para el sistema:
 - •	Realicen un diagrama de Clases de las entidades identificadas en el enunciado.
 
 - ![img_15.png](img_15.png)
+----------------------------------------------------------------
 
 # Reto3
 
@@ -138,6 +140,8 @@ toda la evidencia de los votos y casos.
 **Evidecia casos de usuario**
 
 -![img_23.png](img_23.png)
+
+----------------------------------------------------------------
 # Reto 4
 
 **Sistema de Gestión de Cuentas Bancarias**
@@ -182,6 +186,7 @@ en conjunto bajo los mismos estandares y criterios:
 
 Se crearon las pruebas desde el funcionamiento mas basico para poder fomentar su informacion y comportamiento,
 con el fin de satisfacer los retos solicitados.
+----------------------------------------------------------------
 
 # Reto 5
 
@@ -202,6 +207,7 @@ correctamente la cobertura.
 
 ![img_28.png](img_28.png)
 
+----------------------------------------------------------------
 # Reto 6
 
 **Descripción**
@@ -234,7 +240,7 @@ mvn verify sonar:sonar
 ![img_40.png](img_40.png)
 ![img_41.png](img_41.png)
 
-
+----------------------------------------------------------------
 **Refelxiones**
 
 - **Integrante1**
