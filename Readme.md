@@ -184,10 +184,10 @@ en conjunto bajo los mismos estandares y criterios:
 Pasamos a la documentar las clases se solicita los javaDOG los cuales se generan con el sigueinte comando:
 #### "mvn javadoc:javadoc" 
 - los apidocs se generan en target/, esa carpeta no se sube a Git, y por eso solo aparecen en la máquina de quien ejecutó el comando.
-![img.png](img.png)
+![img.png](docs/imagenes/img_50.png)
 
 - Se confirma habriendo el index.html en el buscador que seria nuestra api del proyecto
-![img_3.png](img_3.png)
+![img_3.png](docs/imagenes/img_53.png)
 
 ### **Clases de pruba y su comportamiento**
 
