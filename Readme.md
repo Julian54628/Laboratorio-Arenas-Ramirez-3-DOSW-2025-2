@@ -136,7 +136,8 @@ toda la evidencia de los votos y casos.
   como unidad de trabajo, usando Fibonacci como estimacion de voto y tener un consenso para avanzar.
 
 **Evidecia casos de usuario**
-- ![img_14.png](img_14.png)
+
+-![img_23.png](img_23.png)
 # Reto 4
 
 **Sistema de Gestión de Cuentas Bancarias**
@@ -200,3 +201,47 @@ Jacoco mostraba que esa condicion no estaba ejecutandose, pero gracias al test, 
 correctamente la cobertura.
 
 ![img_28.png](img_28.png)
+
+# Reto 6
+
+**Descripción**
+
+Este reto consistia en integrar SonarQube en el proyecto para realizar analisis estático de código y para 
+que mida la calidad de software. Por lo que se instalo Docker para poder usar Donarqube, generar un token 
+de autenticación, la configuración que se hace en el pom.xml con las propiedades que nos pedia el documento
+y con las pruebas.
+
+**Evidencias**
+
+1) instalar Docker.
+![img_31.png](img_31.png)
+
+2) Agregarlo en consola
+![img_32.png](img_32.png)
+![img_33.png](img_33.png)
+
+3) Pruebas en la consola de intellij
+
+docker pull sonarqube
+![img_36.png](img_36.png)
+
+mvn verify sonar:sonar
+![img_37.png](img_37.png)
+![img_38.png](img_38.png)
+![img_39.png](img_39.png)
+
+4) se actualiza el pom
+![img_40.png](img_40.png)
+![img_41.png](img_41.png)
+
+
+**Refelxiones**
+
+- **Integrante1**
+
+Julián Arenas
+
+Para mí son importantes las pruebas de software, porque queremos garantizar que todas las funcionalidades de nuestros 
+proyectos, cumplan con lo que esperamos, y además que nuestro sistema se comporte de buena manera con los diferentes 
+escenarios que hay. Algo bueno es que además de ayudarnos a detectar errores técnicos, también nos permite mejorar la 
+calidad del programa, reduciendo los riesgos y generando más confianza para los usuarios finales.
