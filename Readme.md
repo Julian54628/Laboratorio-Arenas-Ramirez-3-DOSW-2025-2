@@ -179,6 +179,20 @@ en conjunto bajo los mismos estandares y criterios:
 - #### **GestionCuentas:** Actúa como el controlador principal para crear, buscar y operar las cuentas.
 ![img_36.png](docs/imagenes/img_36.png)
 
+- ## Principios y Patrones Utilizados
+
+La solución se desarrolló aplicando principios **SOLID**:
+- Cada clase cumple una única responsabilidad (S).
+- El diseño está abierto a extensiones sin modificar lo existente (O).
+- Se favorece la composición y bajo acoplamiento entre clases (I).
+
+En  patrones usamos principalmente:
+- **Strategy** en las validaciones define un conjunto de comportamientos intercambiables en ejecucion
+- **Factory Method** en la creación de transacciones que delegar la creación de objetos a un método especializado
+- **Encapsulación y composición** para la relación entre banco, clientes y cuentas.
+
+Esto permite un código modular, fácil de mantener y extensible
+
 ### **Documentacion y JAVA Doc**
 
 Pasamos a la documentar las clases se solicita los javaDOG los cuales se generan con el sigueinte comando:
@@ -207,6 +221,7 @@ con el fin de satisfacer los retos solicitados.
 ![img_25.png](docs/imagenes/img_25.png)
 ![img_26.png](docs/imagenes/img_26.png)
 ![img_27.png](docs/imagenes/img_27.png)
+![img.png](docs/imagenes/img_54.png)
 
 **Reflexion**
 
