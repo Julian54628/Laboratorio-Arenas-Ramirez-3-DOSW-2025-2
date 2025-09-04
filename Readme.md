@@ -186,6 +186,10 @@ en conjunto bajo los mismos estandares y criterios:
 
 Se crearon las pruebas desde el funcionamiento mas basico para poder fomentar su informacion y comportamiento,
 con el fin de satisfacer los retos solicitados.
+![img.png](img.png)
+![img_1.png](img_1.png)
+![img_2.png](img_2.png)
+
 ----------------------------------------------------------------
 
 # Reto 5
