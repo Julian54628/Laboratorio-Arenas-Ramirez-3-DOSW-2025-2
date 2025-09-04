@@ -161,20 +161,22 @@ la cual se encuentra en otra carpeta como se debe hacer con los requisitos de ma
 creamos las clases utilizando el diagrama del segundo reto para que todo estubiera trabajando
 en conjunto bajo los mismos estandares y criterios:
 
-- **ValidadorCuenta:** Verifica si una cuenta existe en el sistema.
-
-- **Transaccion:** Realiza y registra operaciones bancarias como depósitos y retiros.
-
-- **CuentaBancaria:** Almacena los detalles de una cuenta, incluyendo el saldo y el cliente.
-
-- **Cliente:** Representa a la persona que posee una cuenta.
-
+- #### **ValidadorCuenta:** Verifica si una cuenta existe en el sistema.
+![img_31.png](img_31.png)
+- #### **Transaccion:** Realiza y registra operaciones bancarias como depósitos y retiros.
+![img_32.png](img_32.png)
+- #### **CuentaBancaria:** Almacena los detalles de una cuenta, incluyendo el saldo y el cliente.
+![img_33.png](img_33.png)
+- #### **Cliente:** Representa a la persona que posee una cuenta.
+![img_34.png](img_34.png)
 - **Banco:** Define los nombres y códigos de los bancos disponibles.
+![img_35.png](img_35.png)
+- #### **GestionCuentas:** Actúa como el controlador principal para crear, buscar y operar las cuentas.
+![img_36.png](img_36.png)
 
-- **GestionCuentas:** Actúa como el controlador principal para crear, buscar y operar las cuentas.
+### **Clases de pruba y su comportamiento**
 
--**Clases de pruba y su comportamiento**
-
+- Las corremos con el comado "mvn test"
 - ![img_17.png](img_17.png)
 
 Se crearon las pruebas desde el funcionamiento mas basico para poder fomentar su informacion y comportamiento,

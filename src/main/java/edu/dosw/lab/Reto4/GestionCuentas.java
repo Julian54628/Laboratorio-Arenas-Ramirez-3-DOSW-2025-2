@@ -47,7 +47,6 @@ public class GestionCuentas {
     public CuentaBancaria buscarCuenta(String numeroCuenta) {
         return cuentas.stream()
                 .filter(c -> c.getNumeroCuenta().equals(numeroCuenta))
-                .findFirst()
-                .orElseThrow(() -> new IllegalArgumentException("Cuenta no encontrada"));
+                .findFirst().orElseThrow(() -> new IllegalArgumentException("Cuenta no encontrada"));
     }
 }
